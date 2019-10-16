@@ -1,4 +1,4 @@
-
+//https://github.com/sefigueroacUNAL/TModeladoUNAL
 //int //Tamaño depende del compilador 16 bits
 //byte, // 8 bits
 //char, 
@@ -33,7 +33,7 @@ void DoReadings(){
   switch(state){
     case BHIGH:
       if (newValue == LOW){
-        lastTime = millis();
+        lastTime = millis(); //Marca de tiempo
         state = DOWN;
         }
     break;
@@ -42,6 +42,8 @@ void DoReadings(){
         if(newValue == LOW){
           state = BLOW;
           OnButtonLOW();
+          }else{
+          state = BHIGH;
           }
         }
     break;
@@ -57,7 +59,9 @@ void DoReadings(){
           state = BHIGH;
           OnButtonHIGH();
           }
-        }      
+        }else{
+          state = BLOW;
+          }      
   }
 }
 
