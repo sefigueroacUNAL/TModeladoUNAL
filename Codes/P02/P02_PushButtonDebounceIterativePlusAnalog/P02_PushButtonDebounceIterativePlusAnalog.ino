@@ -20,7 +20,6 @@ void setup() {
  for( int i = 2; i < 13 ; i++){ //Initialize
       
     pinMode(i,INPUT_PULLUP);
-    if(i == 4) pinMode(i,INPUT);
     pushButtons[i - 2] = i;
     cnts[i-2] = 0;
     states[i-2] = BHIGH;
@@ -38,9 +37,21 @@ void loop() {
   DoReadings(&lastTimes[i-2],&states[i-2],&pushButtons[i-2]);
   }
 
-  int val = analogRead(A0);
-  Serial.print("Val is:");
-  Serial.println(val);
+  int V0 = analogRead(A0);
+  int V1 = analogRead(A1);
+  byte SW = digitalRead(2);
+  Serial.print("X is:");
+  Serial.print(V0);
+  Serial.print(" Y is:");
+  Serial.print(V1);
+  Serial.print(" SW is:");
+  Serial.println(SW);
+
+  int val = map(V0,0,1023,0,100);
+  Serial.print(val);
+  analogWrite(9,val);
+
+  //Reto encender el led (pin 13) de acuerdo al valor del potenciometro analogWrite(pin,0 - 255); A0 (0 - 1024), map(val,0,1024,255);
 
 }
 
