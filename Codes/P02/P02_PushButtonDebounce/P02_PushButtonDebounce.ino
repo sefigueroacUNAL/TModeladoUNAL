@@ -11,7 +11,7 @@ byte oldValue = HIGH;
 byte newValue = HIGH;
 int cnt = 0;
 const int pushButton = 2; //No se puede conectar al pin 0 ni 1
-int debounceTime = 50; //Time in milliseconds
+int debounceTime = 0; //Time in milliseconds
 unsigned long lastTime;
 
 
@@ -59,9 +59,10 @@ void DoReadings(){
           state = BHIGH;
           OnButtonHIGH();
           }
-        }else{
+        else{
           state = BLOW;
-          }      
+          }  
+      }    
   }
 }
 

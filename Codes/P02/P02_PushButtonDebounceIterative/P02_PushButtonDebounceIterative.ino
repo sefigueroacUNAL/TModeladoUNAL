@@ -10,7 +10,7 @@ BSTATE states[12];
 int cnts[12] ;
 int pushButtons[12]; //No se puede conectar al pin 0 ni 1
 int debounceTime = 50; //Time in milliseconds
-unsigned long lastTimes[12];
+unsigned long lastTimes[12]; 
 
 
 void setup() {
@@ -34,12 +34,15 @@ void loop() {
   for(int i = 2; i < 13; i++){
     //This functions reads each pin.
     // Arguments are passed by reference (&) instead of value
+    //& La dirección de
   DoReadings(&lastTimes[i-2],&states[i-2],&pushButtons[i-2]);
   }
 
 }
 
 void DoReadings(unsigned long * lastTime, BSTATE* state, int *pushButton){
+  //lastTime -> Me arroja la dirección
+  //*lastTime -> Me arroja valor;
   int newValue = digitalRead(*pushButton);
   switch(*state){
     case BHIGH:
@@ -53,7 +56,9 @@ void DoReadings(unsigned long * lastTime, BSTATE* state, int *pushButton){
         if(newValue == LOW){
           *state = BLOW;
           OnButtonLOW(*pushButton);
-          }
+          }else{
+          *state = BHIGH;
+          } 
         }
     break;
     case BLOW:
@@ -67,7 +72,9 @@ void DoReadings(unsigned long * lastTime, BSTATE* state, int *pushButton){
         if(newValue == HIGH){
           *state = BHIGH;
           OnButtonHIGH(*pushButton);
-          }
+          }else{
+          *state = BLOW;
+          } 
         }      
   }
 }
@@ -75,6 +82,15 @@ void DoReadings(unsigned long * lastTime, BSTATE* state, int *pushButton){
 void OnButtonLOW(int pushButton){
   String str = String("El boton ") + pushButton + " se ha presionado " + (++cnts[pushButton-2]) + " veces";
   Serial.println(str);
+
+  switch(pushButton){
+    
+    case 2:
+    Serial.println("Boton de la alegria");
+    break;
+    case 12:
+    Serial.println("Boton de la tristeza");
+    }
 }
 
 void OnButtonHIGH(int pushButton){
