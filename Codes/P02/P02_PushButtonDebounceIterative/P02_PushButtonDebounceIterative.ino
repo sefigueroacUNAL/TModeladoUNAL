@@ -18,7 +18,9 @@ void setup() {
   Serial.begin(9600); //Comunicación serial al computador 9600 Baudios
  
  for( int i = 2; i < 13 ; i++){ //Initialize
+      
     pinMode(i,INPUT_PULLUP);
+    if(i == 4) pinMode(i,INPUT);
     pushButtons[i - 2] = i;
     cnts[i-2] = 0;
     states[i-2] = BHIGH;
