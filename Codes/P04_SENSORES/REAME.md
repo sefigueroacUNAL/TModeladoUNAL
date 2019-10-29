@@ -7,9 +7,9 @@
 <img src="Images/01.png"/>
 
 Conexiones
-GND Sensor -> GND ARDUINO
-5V Sensor -> 5V ARDUINO
-Signal -> A0 (SCL)
+GND Sensor -> GND ARDUINO <br>
+5V Sensor -> 5V ARDUINO	<br>
+Signal -> A0 (SCL)<br>
 
 2. Cargue en el Arduino el codigo en la carpeta P01\_SensorDHT11\_Humidiy\_Temperature.
 
