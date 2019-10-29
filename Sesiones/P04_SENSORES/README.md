@@ -59,23 +59,23 @@ También debe verificar las condiciones el luz del espacio. Si es un espacio muy
 # 04 Sensor IRemote
 Tutorial básado en <https://naylampmechatronics.com/blog/36_Tutorial-Arduino-y-control-remoto-Infrarrojo.html> <br>
 
-1) Conecte el sensor que se muestra en imagen como se indica en el texto de conexiones.
+1. Conecte el sensor que se muestra en imagen como se indica en el texto de conexiones.
 
 <img src="Images/04.png"/>
 
-### Conexiones
+*Conexiones*
 GND Sensor -> GND ARDUINO <br>
 5V Sensor -> 5V ARDUINO	<br>
 Signal -> D3 <br>
 
-2) Suba el código y abra la consola serial.
+2. Suba el código y abra la consola serial.
 
-3) Con el control remoto (puede ser cualquier que utilice infrarrojo) apunte hacia el receptor y presione una tecla del control
+3. Con el control remoto (puede ser cualquier que utilice infrarrojo) apunte hacia el receptor y presione una tecla del control
 
-4)Verifique que se muestre un valor como en la imagen.
+4. Verifique que se muestre un valor como en la imagen.
 <img src="Images/04B.png"/>
 
-5) Reto  conecte 3 Leds o un buzzer al Arduino, y encienda cada uno con una tecla diferente.
+5. Reto  conecte 3 Leds o un buzzer al Arduino, y encienda cada uno con una tecla diferente.
 
 # 05 Sensor de efecto Hall
 
