@@ -3,6 +3,10 @@ Este repositorio contiene los códigos para trabajar con los diferentes sensores
 
 Puede encontrarse una guía de los sensores en estos links:
 
+## Página del laboratorio
+[Página del laboratorio](https://sefigueroacunal.github.io/TModeladoUNAL/)
+
+
 ## Guía sensores
 Guía externa <https://images-eu.ssl-images-amazon.com/images/I/C1lrpIfADaS.pdf>
 
