@@ -2,6 +2,8 @@
 
 [Volver a página principal](../../Readme.md)
 
+Los códigos de esta sesión se encuentran [aquí](../)
+
 ## 01 - Sensor de humedad
 
 1) Conecte el sensor que se muestra en la imagen como se en indica en texto de conexiones
