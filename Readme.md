@@ -8,7 +8,7 @@ Guía externa <https://images-eu.ssl-images-amazon.com/images/I/C1lrpIfADaS.pdf>
 
 ## Sesiónes
 
-[Sesiones/P04_SENSORES/README.md](Sesión de sensores)
+[Sesión de sensores](Sesiones/P04_SENSORES/README.md)
 
 ## Guía sensores con código
 <https://www.instructables.com/id/Arduino-37-in-1-Sensors-Kit-Explained/>
