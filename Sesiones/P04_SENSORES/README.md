@@ -1,5 +1,7 @@
 # Práctica sensores
 
+[Volver a página principal](../../Readme.md)
+
 ## 01 - Sensor de humedad
 
 1) Conecte el sensor que se muestra en la imagen como se en indica en texto de conexiones
@@ -48,7 +50,7 @@ GND Sensor -> GND ARDUINO <br>
 Analog -> A0 (SCL)<br>
 digital output -> D4
 
-2) Suba el código y abra la consola serial.
+2) Cargue en el Arduino el código correspondiente.
  
 3) Acerque una fuente de fuego (un encendedor o una vela). <br>
 Revise que valor de la lectura se modifique. <br>
@@ -71,14 +73,16 @@ Signal -> D3 <br>
 
 2) Suba el código y abra la consola serial.
 
-3) Con el control remoto (puede ser cualquier que utilice infrarrojo) apunte hacia el receptor y presione una tecla del control
+3) Con el control remoto (puede ser cualquier control que utilice infrarrojo) apunte hacia el receptor y presione una tecla del control.
 
 4) Verifique que se muestre un valor como en la imagen.
 <img src="Images/04B.png"/>
 
-5) Reto  conecte 3 Leds o un buzzer al Arduino, y encienda cada uno con una tecla diferente.
+5) **Reto:**  conecte 3 Leds o un buzzer al Arduino, y encienda cada uno con una tecla diferente.
 
 # 05 Sensor de efecto Hall
+
+
 
 
 
