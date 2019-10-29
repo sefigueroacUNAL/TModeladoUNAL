@@ -2,7 +2,7 @@
 
 [Volver a página principal](../../Readme.md)
 
-Los códigos de esta sesión se encuentran [aquí](../)
+Los códigos de esta sesión se encuentran [aquí](.)
 
 ## 01 - Sensor de humedad
 
