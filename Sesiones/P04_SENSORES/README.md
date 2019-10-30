@@ -84,10 +84,87 @@ Signal -> D3 <br>
 
 # 05 Sensor de efecto Hall
 
+1) Conecte el sensor que se muestra en imagen como se indica en el texto de conexiones.
+
+<img src="Images/05.png"/>
+
+**Conexiones**
+
+GND Sensor -> GND ARDUINO <br>
+5V Sensor -> 5V ARDUINO	<br>
+Signal -> A0 <br>
+
+2) Suba el código y abra la consola serial.
+
+3) Acerque una fuente de campo magnetico (un imán) y observe en la consola los valores obtenidos.
+
+4) Cambia la variable threshold para que los valores mostrados por comunicación serial correspondan a la presencia o no, de campo magnetico.
 
 
+# 06 Sensor de LDR
+
+1) Conecte el sensor que se muestra en imagen como se indica en el texto de conexiones.
+
+<img src="Images/06.png"/>
+
+**Conexiones**
+
+GND Sensor -> GND ARDUINO <br>
+5V Sensor -> 5V ARDUINO	<br>
+Signal -> A0 <br>
+
+2) Suba el código y ejecute la consola serial.
+
+3) Obstruya la luz que llega al sensor.
+
+4) Cambia la variable threshold para que los valores mostrados por comunicación serial correspondan a la presencia o no, de luz.
+
+# 07 HeartBet Sensor (SIN TESTEAR)
+
+1) Conecte el sensor que se muestra en imagen como se indica en el texto de conexiones.
+
+<img src="Images/07.png"/>
+
+**Conexiones**
+
+GND Sensor -> GND ARDUINO <br>
+5V Sensor -> 5V ARDUINO	<br>
+Signal -> A0 <br>
+
+2) Suba el código y ejecute la consola serial.
+
+3) Ubique el dedo como se muestra en la imagen
+
+4) Verifique que los valores cambien.
+
+5) Revise el código en este [link](https://github.com/somenjana/Calibration-of-Keyes-KY-039-Sensor) para obtener la lectura de la frecuencia cardiaca. 
 
 
+# 08 Sensor de temperatura DS18B20 (SIN TESTEAR POR PROBLEMAS EN EL SENSOR)
 
+Basado en <https://naylampmechatronics.com/blog/46_Tutorial-sensor-de-temperatura-DS18B20.html>
 
+1) Conecte el sensor que se muestra en imagen como se indica en el texto de conexiones.
+
+<img src="Images/08.png"/>
+
+**Conexiones**
+
+GND Sensor -> GND ARDUINO <br>
+5V Sensor -> 5V ARDUINO	<br>
+Signal -> D10 <br>
+
+2) Instale las librería que se encuentran dentro del directorio del código, en la subcarpeta librerías.
+
+Para la instalación debe ir a Programa -> Incluir Libreria -> Añadir Librería Zip y navegar hasta la el directorio que contiene la librería.
+
+3) Cargue el programa en el Arduino.
+
+4) Observer el valor de temperatura en la consola serial.
+
+5) Si en la consola aparece el texto \"No more addresses\" debe verificar las conexiones y\/o cambiar el sensor.
+
+<img src="Images/08B.png"/>
+
+# LCD Example (En desarrollo)
 
