@@ -4,6 +4,10 @@
 
 Los códigos de esta sesión se encuentran [aquí](.)
 
+## 00 - Fade In fadeo out
+
+1) Revise el codigo P0
+
 ## 01 - Sensor de humedad
 
 1) Conecte el sensor que se muestra en la imagen como se en indica en texto de conexiones
