@@ -77,7 +77,7 @@ Tutorial básado en <https://naylampmechatronics.com/blog/36_Tutorial-Arduino-y-
 
 GND Sensor -> GND ARDUINO <br>
 5V Sensor -> 5V ARDUINO	<br>
-Signal -> D3 <br>
+Signal -> D11 <br>
 
 2) Suba el código y abra la consola serial.
 

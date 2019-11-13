@@ -11,11 +11,17 @@ void setup(){
   delay(1000);//Wait before accessing Sensor
  
 }//end "setup()"
+
+int state = 0;
+unsigned long timeMark = 0;
  
 void loop(){
   //Start of Program 
- 
-   int  val = DHT.read11(dht_apin);
+    
+
+  if(state == 0){
+    timeMark = millis();
+     int  val = DHT.read11(dht_apin);
     
     Serial.print("Current humidity = ");
     Serial.print(DHT.humidity);
@@ -23,8 +29,19 @@ void loop(){
     Serial.print("temperature = ");
     Serial.print(DHT.temperature); 
     Serial.println("C  ");
+    state = 1;
+    }
+
+   if(state == 1){
+    if(millis() - timeMark > 100)
+      state = 0;
+    }
     
-    delay(100);//Wait 5 seconds before accessing sensor again.
+  
+    
+  
+    
+   // delay(100);//Wait 5 seconds before accessing sensor again.
  
   //Fastest should be once every two seconds.
  

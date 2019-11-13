@@ -12,7 +12,8 @@ Serial.begin(9600);                                                             
  Serial.println("Iniciando ...");
    //configuracion del sensor
   Serial.print("Calibrando...\n");
-  Ro = Calibracion(MQ1);                        //Calibrando el sensor. Por favor de asegurarse que el sensor se encuentre en una zona de aire limpio mientras se calibra
+  //Ro = Calibracion(MQ1);                        //Calibrando el sensor. Por favor de asegurarse que el sensor se encuentre en una zona de aire limpio mientras se calibra
+  Ro = 8.6;
   Serial.print("Calibracion finalizada...\n");
   Serial.print("Ro=");
   Serial.print(Ro);

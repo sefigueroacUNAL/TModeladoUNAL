@@ -20,8 +20,9 @@ pinMode(10,OUTPUT);
 
 void loop() {
   // put your main code here, to run repeatedly:
-  FadeInOut(9,&timeMark1,1000,1000,100,&state1,200);
-  FadeInOut(10,&timeMark2,1000,0,100,&state2,200);
+  FadeInOut(9,&timeMark1,100,100,100,&state1,200);
+  FadeInOut(10,&timeMark2,200,0,100,&state2,200);
+  //analogWrite(10,128);
 
 }
 
