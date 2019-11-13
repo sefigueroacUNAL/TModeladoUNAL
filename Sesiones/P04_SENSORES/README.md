@@ -2,7 +2,7 @@
 
 [Volver a página principal](../../Readme.md)
 
-Los códigos de esta sesión se encuentran [aquí](.)
+Los códigos de esta sesión se encuentran [aquí](https://github.com/sefigueroacUNAL/TModeladoUNAL/blob/master/Sesiones/P04_SENSORES/README.md)
 
 ## 00 - Fade In fadeo out
 
