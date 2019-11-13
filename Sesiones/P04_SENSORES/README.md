@@ -8,6 +8,8 @@ Los códigos de esta sesión se encuentran [aquí](https://github.com/sefigueroa
 
 1) Revise el codigo P0
 
+<img src="Images/00.png"/>
+
 ## 01 - Sensor de humedad
 
 1) Conecte el sensor que se muestra en la imagen como se en indica en texto de conexiones
