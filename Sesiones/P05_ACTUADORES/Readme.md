@@ -53,15 +53,15 @@ En la siguiente imagen puede verse la señal de control del servomotor.
 
 Estas señales deben repetirse en el tiempo para que el eje se mantenga en la posición deseada.
 
-<img src = "images/03_pwm_signals-1-768x853.jpg" /> <br>
+<img src = "images/03_pwm_signals-1-768x853.jpg" width="200"/> <br>
 
 ### Conexión del servomotor
 
-En la siguiente imagen se puede ver una conexión básica del servomotor
+En la siguiente imagen se puede ver una conexión básica del servomotor.
 
 <img src = "images/03_esquema-conexion-servo-arduino.png" /> 
 En este caso sí es posible conectar directamente la señal del PWM al Arduino, ya que esta es una señal de control, y no de potencia. Sin embargo no es recomendable utilizar el servo motor cuando el arduino solo cuenta con alimentación USB. En ese caso se prefiere utilizar un adaptador.
-<br>
+<br><br>
 
 En algunos casos, cuando se trabaje con motores de mayor potencia, puede ser preferible no utilizar la señal de 5V del Arduino, sino obtener una señal a través de una fuente externa, como por ejemplo un modulo XL4015 configurado con su salida a 5V. 
 
