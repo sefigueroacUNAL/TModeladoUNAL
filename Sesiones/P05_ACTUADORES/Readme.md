@@ -53,7 +53,7 @@ En la siguiente imagen puede verse la señal de control del servomotor.
 
 Estas señales deben repetirse en el tiempo para que el eje se mantenga en la posición deseada.
 
-<img src = "images/03_pwm_signals-1-768x853.jpg" width="200"/> <br>
+<img src = "images/03_pwm_signals-1-768x853.jpg" width="50%"/> <br>
 
 ### Conexión del servomotor
 
