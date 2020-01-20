@@ -11,10 +11,10 @@ Existen diversidad de motores. El motor mostrado tiene las siguientes caracterí
 
 **Características:**
 
-*Voltaje de alimentación: 2VDC~5VDC
-*Alcanza hasta 110 RPM sin carga
-*Torque 0,11Kg.cm
-*Consumo de corriente (Stall): 1.2 A
+* Voltaje de alimentación: 2VDC~5VDC
+* Alcanza hasta 110 RPM sin carga
+* Torque 0,11Kg.cm
+* Consumo de corriente (Stall): 1.2 A
 
 **Nota:** El motor no se debe conectar directamente a los pines del Arduino, ni otro microcontrolador. 
 
