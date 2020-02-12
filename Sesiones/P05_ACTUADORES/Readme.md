@@ -22,6 +22,10 @@ Existen diversidad de motores. El motor mostrado tiene las siguientes caracterí
 **Nota:** La corriente del motor puede llegar hasta 1.2 Amperios. En general los microcontroladores, y la tarjeta arduino solo pueden proveer alrededor de 10 ma. Es por esto que el motor no se debe conectar directamente a los pines del Arduino, ni otro microcontrolador. Para esta conexión es necesario utilizar un driver o [Puente H](https://es.wikipedia.org/wiki/Puente_H_(electr%C3%B3nica). 
 <br><br>
 
+**Puente H:**
+(https://wiki.dfrobot.com/Arduino_Motor_Shield__L298N___SKU_DRI0009_)
+<br> <br>
+
 
 ## Servo Motor
 Esta sección está basada en este [link](http://panamahitek.com/que-es-y-como-funciona-un-servomotor/).
