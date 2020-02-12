@@ -23,7 +23,7 @@ Existen diversidad de motores. El motor mostrado tiene las siguientes caracterí
 <br><br>
 
 **Puente H:**
-(https://wiki.dfrobot.com/Arduino_Motor_Shield__L298N___SKU_DRI0009_)
+( https://wiki.dfrobot.com/Arduino_Motor_Shield__L298N___SKU_DRI0009_ )
 <br> <br>
 
 
