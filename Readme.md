@@ -19,6 +19,9 @@ Configuración <br>
 Comandos AT <br>
 <https://www.itead.cc/wiki/Serial_Port_Bluetooth_Module_(Master/Slave)_:_HC-05></https://www.itead.cc/wiki/Serial_Port_Bluetooth_Module_(Master/Slave)_:_HC-05>
 
+## Guía de código modular
+<https://create.arduino.cc/projecthub/LuckyResistor/guide-to-modular-firmware-6c5409>
+<br><br>
 
 
 ## Guía sensores con código
