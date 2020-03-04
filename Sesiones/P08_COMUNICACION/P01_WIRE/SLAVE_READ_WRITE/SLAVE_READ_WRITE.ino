@@ -10,7 +10,7 @@ void setup() {
   Wire.begin(SLAVE_1_ADDR);
   Wire.onRequest(requestEvent);
   Wire.onReceive(receiveEvent);
-//  Serial.begin(9600);
+ Serial.begin(9600);
 
   
 
@@ -19,7 +19,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   READ_VAL = analogRead(A0);
-  Serial.println(READ_VAL);
+ // Serial.println(READ_VAL);
   isNew = 0xFF;
   //delay(500);
   
