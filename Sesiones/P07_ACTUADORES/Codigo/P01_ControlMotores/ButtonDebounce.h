@@ -13,8 +13,6 @@ class ButtonDebounce{
   Function highCallback = 0;
 
  
-
-
   public:
 
    bool DEBUG = false;
